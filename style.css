@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Personal Information Specific Styles */
+.personal-info-container {
+    width: 70%;
+    /* max-width: 1200px; Adjust max-width as needed */
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto 20px; /* Center horizontally and add bottom margin */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.personal-info-container h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.personal-info-container form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px; /* Adjust gap between columns */
+}
+
+.personal-info-container .left-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px; /* Adjust gap between rows */
+}
+
+.personal-info-container .right-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px; /* Adjust gap between rows */
+}
+
+.personal-info-container label {
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.personal-info-container input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+
+/* Address Details Container */
+.address-details-container {
+    width: 70%;
+    /* max-width: 1200px; Adjust max-width as needed */
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto 20px; /* Center horizontally and add bottom margin */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.address-details-container h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.address-details-container form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.permanent-address,
+.temporary-address {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; /* Adjust gap between rows */
+}
+
+.address-details-container label {
+    font-weight: bold;
+}
+
+.address-details-container input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Family Information Container */
+.family-info-container {
+    width: 70%;
+    /* max-width: 1200px; */
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.family-info-container h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.family-info-container form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.family-info-container label {
+    font-weight: bold;
+}
+
+.family-info-container input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Spouse Information Container */
+.spouse-info-container {
+    width: 70%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.spouse-info-container h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.spouse-info-container form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.spouse-info-container label {
+    font-weight: bold;
+}
+
+.spouse-info-container input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.spouse-info-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.spouse-info-container table, 
+.spouse-info-container th, 
+.spouse-info-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.spouse-info-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Education table */
+.education-info-container {
+    width: 70%;
+    margin: 20px auto; /* Center the container */
+}
+
+.education-info-container h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.education-info-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.education-info-container th, 
+.education-info-container td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.education-info-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.education-info-container td input {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
